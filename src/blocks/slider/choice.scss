@@ -1,0 +1,17 @@
+.choice__link{
+  display: flex;
+}
+.choice__item{ display: flex;
+  margin-right: 45px;
+  font-size: 12px;
+  line-height: 14px;
+  align-items: center;
+  &:last-child {
+    margin-right: 0;
+  }
+}
+.choice__list{
+  width: 24px;
+  height: 24px;
+  margin: 0 9px 0 0;
+}

@@ -1,0 +1,30 @@
+.slider {
+  position: relative;
+  background-color: #F8F8F8;
+}
+
+.slider__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.slider__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 1170px;
+  width: 480px;
+}
+
+.slider__block-img {
+  width: 270px;
+  height: 480px;
+}

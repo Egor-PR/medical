@@ -1,0 +1,20 @@
+
+@import"./node_modules/normalize.css/normalize.css";
+
+@import "./_misc/layout.scss";
+
+//blocks
+@import "./src/blocks/hero/hero.scss";
+@import"./src/blocks/hero/header.scss";
+@import"./src/blocks/hero/menu.scss";
+@import"./src/blocks/hero/btn.scss";
+@import"./src/blocks/hero/content.scss";
+
+//blocks//slider
+@import"./src/blocks/slider/slider.scss";
+@import"./src/blocks/slider/block.scss";
+@import"./src/blocks/slider/step.scss";
+@import"./src/blocks/slider/form.scss";
+@import"./src/blocks/slider/choice.scss";
+//block//feedback
+@import"./src/blocks/feedback/feedback.scss";

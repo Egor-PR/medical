@@ -1,0 +1,15 @@
+.step__list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.step__item {
+  margin-right: 184px;
+  font-size: 13px;
+  line-height: 14px;
+  color: #C4C4C4;
+  &:last-child {
+    margin-right: 0;
+  }
+}

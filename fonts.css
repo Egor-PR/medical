@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "gothampro";
+  src: url(/fonts/gothampro.ttf);
+  src: url(/fonts/gothampro.ttf) format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "gothampro_black";
+  src: url(/fonts/gothampro_black.ttf);
+  src: url(/fonts/gothampro_black.ttf) format("truetype");
+  font-style: normal;
+  font-weight: normal;
+} 
+@font-face {
+  font-family: "gothampro_blackitalic";
+  src: url(/fonts/gothampro_blackitalic.ttf);
+  src: url(/fonts/gothampro_blackitalic.ttf) format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "gothampro_bold";
+  src: url(/fonts/gothampro_bold.ttf);
+  src: url(/fonts/gothampro_bold.ttf) format("truetype");
+  font-style: normal;
+  font-weight: normal;
+} 
+@font-face {
+  font-family: "gothampro_bolditalic";
+  src: url(/fonts/gothampro_bolditalic.ttf);
+  src: url(/fonts/gothampro_bolditalic.ttf) format("truetype");
+  font-style: normal;
+  font-weight: normal;
+} 
+@font-face {
+  font-family: "gothampro_italic";
+  src: url(/fonts/gothampro_italic.ttf);
+  src: url(/fonts/gothampro_italic.ttf) format("truetype");
+  font-style: normal;
+  font-weight: normal;
+} 
+@font-face {
+  font-family: "gothampro_light";
+  src: url(/fonts/gothampro_light.ttf);
+  src: url(/fonts/gothampro_light.ttf) format("truetype");
+  font-style: normal;
+  font-weight: normal;
+} 
+@font-face {
+  font-family: "gothampro_lightitalic";
+  src: url(/fonts/gothampro_lightitalic.ttf);
+  src: url(/fonts/gothampro_lightitalic.ttf) format("truetype");
+  font-style: normal;
+  font-weight: normal;
+} 
+@font-face {
+  font-family: "gothampro_medium";
+  src: url(/fonts/gothampro_medium.ttf);
+  src: url(/fonts/gothampro_medium.ttf) format("truetype");
+  font-style: normal;
+  font-weight: normal;
+} 
+@font-face {
+  font-family: "gothampro_mediumitalic";
+  src: url(/fonts/gothampro_mediumitalic.ttf);
+  src: url(/fonts/gothampro_mediumitalic.ttf) format("truetype");
+  font-style: normal;
+  font-weight: normal;
+} 
+@font-face {
+  font-family: "Roboto";
+  src: url(/fonts/Roboto.ttf);
+  src: url(//fonts/Roboto.ttf) format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}

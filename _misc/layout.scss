@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'gothampro';
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #1A191C;
+}
+
+.btn {}
+
+.body {
+  position: relative;
+  font-size: 14px;
+  line-height: 1.42;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+.container {
+  position: relative;
+  margin: 0 auto;
+  max-width: 959px;
+  width: 1170px;
+  display: flex;
+  flex-direction: column;
+  //height: 95%;
+  //justify-content: space-between;
+
+}
+
+.wrapper {
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+}
+
+
+
+.maincontent {
+  height: 100%;
+}
+
+.section {
+  // height: 100vh;
+  min-height: 950px;
+
+}
