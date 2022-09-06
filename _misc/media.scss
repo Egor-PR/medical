@@ -17,13 +17,19 @@
     flex-wrap: wrap;
   }
 
-  .slider__content-block img {
+  
+  .slider__block-img{
     display: none;
   }
 
   .slider__content-block .slider__block-question {
     flex-wrap: wrap;
     width: 100%;
+  }
+
+ .slider__content .slider__content-subtitle {
+    width: 100%;
+    
   }
 
   .block__step {

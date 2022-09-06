@@ -16,8 +16,10 @@
   <div class="wrapper">
     <div class="maincontent">
       <section class="section hero">
-        <div class="container">
-          <header class="header">
+        <!-- поменять мес тами хедер и контейнер и отдельно сделать -->
+
+        <header class="header">
+          <div class="header__container">
             <div class="header__buttons">
               <div class="header__block">
                 <div class="header__logo">
@@ -56,7 +58,7 @@
             </div>
             <div class="header__contact">
               <p class="header__contact-mail">prof@diamed.group</p>
-              <a href="#" class="header__contact-phone">+7 (495) 281 53 53</a>
+              <p class="header__contact-phone">+7 (495) 281 53 53</p>
               <button class="header__button-menu"> <img src="/src/img/icon/line.svg" alt=""> </button>
               <div class="header__contact-text">
                 <p>Ваш город </p>
@@ -64,21 +66,23 @@
                 <img src="/src/img/icon/Vector2.svg" alt="">
               </div>
             </div>
-          </header>
+          </div>
+        </header>
+        <div class="container">
           <div class="hero__content">
             <div class="hero__content-pic">
               <img src="/src/img/bg/girl 2.png" alt="" class="hero__pic">
             </div>
             <div class="hero__content-block">
-              <h2>Проведение профосмотров от 600 руб./чел.</h2>
-              <p>с выездом в вашу организацию</p>
+              <h2 class="hero__block-title">Проведение профосмотров <br>от 600 руб./чел.</h2>
+              <p class="hero__block-subtitle">с выездом в вашу организацию</p>
 
               <div class="hero__item">
                 <div class="hero-item__icon">
                   <img src="/src/img/icon/Group.svg" alt="">
                 </div>
                 <div class="hero-item__text">
-                  Сделаем за вас все: от подбора типа профосмотра до выдачи всех документов
+                  <p> Сделаем за вас все: от подбора типа профосмотра до выдачи всех документов </p>
                 </div>
               </div>
               <div class="hero__item">
@@ -97,21 +101,25 @@
                   Результаты профосмотра всего за 7 дней
                 </div>
               </div>
-              <a href="#" class="hero__content-link">Подобрать профосмотр</a>
+              <a href="#" class="hero__content-link">
+                <p>Подобрать профосмотр </p>
+              </a>
             </div>
             <div class="hero__content-offer">
-              <div class="hero__block-text">
-                <p> Оставьте заявку, и мы предоставим полный план профосмотра с расчетом игровой стоимости, подходящий
-                  именно вашей организации </p>
-              </div>
-              <form action="">
-                <input type="text" name="" id="" placeholder="Ваш номер телефона*" class="content__offer-form">
-              </form>
-              <a href="#" class="btn hero">Получить коммерческое предложение</a>
-              <div class="hero__offer-text">
-                Передавая информацию сайту, вы принимаете усовия <a href="#" class="content__offer-link"> Политики
-                  защиты
-                  персональной информации </a>
+              <div class="hero__block-offer">
+                <div class="hero__block-text">
+                  <p> Оставьте заявку, и мы предоставим полный план профосмотра с расчетом игровой стоимости, подходящий
+                    именно вашей организации </p>
+                </div>
+                <form action="">
+                  <input type="text" name="" id="" placeholder="Ваш номер телефона*" class="content__offer-form">
+                </form>
+                <button href="#" class="btn hero__button">Получить коммерческое предложение</button>
+                <div class="hero__offer-text">
+                  <p> Передавая информацию сайту, вы принимаете усовия <a href="#" class="content__offer-link"> Политики
+                      защиты
+                      персональной информации </a></p>
+                </div>
               </div>
             </div>
           </div>
@@ -120,53 +128,64 @@
       <section class="section slider">
         <div class="container">
           <div class="slider__content">
-            <h2>Не знаете, какой профосмотр подойдет вашей организации?</h2>
-            <div class="slider__content-subtitle">
-              <p>Ответьте на 4 вопроса, и мы подберем подходящий профосмотр, расчитаем стоимость его проведения и
-                вышлем
-                коммерческое предложение </p>
-            </div>
-            <div class="slider__content-block">
+            <h2 class="slider__title">Не знаете, какой профосмотр подойдет вашей организации?</h2>
+            <p class="slider__subtitle">Ответьте на 4 вопроса, и мы подберем подходящий профосмотр, расчитаем
+              <br>стоимость его проведения и
+              вышлем
+              коммерческое предложение
+            </p>
+
+
+            <!-- ПЕРВЫЙ БЛОК -->
+              
+              <div class="slider__content-block">
               <div class="slider__block-img">
                 <img src="/src/img/pic/MaskGroup.jpg" alt="">
               </div>
               <div class="slider__block-question">
-                <div class="block__step">
-                  <ul class="step__list">
-                    <li class="step__item">
-                      <p>Шаг 1</p>
-                    </li>
-                    <li class="step__item">
-                      <p>Шаг 2</p>
-                    </li>
-                    <li class="step__item">
-                      <p>Шаг 3</p>
-                    </li>
-                    <li class="step__item">
-                      <p>Шаг 4</p>
-                    </li>
-                  </ul>
-                </div>
-                <div class="block__number">
-                  <p class="block__number-step">1</p>
-                  <h3>Чем занимается ваша организация?</h3>
-                </div>
-                <div class="block__answer">
-                  <form action="">
-                    <input name="" id="" placeholder="Введите ответ" class="block__answer-form"></input>
-                  </form>
+                <div class="slider__block-content">
+                  <div class="block__step">
+                    <ul class="step__list">
+                      <li class="step__item">
+                        <p>Шаг 1</p>
+                      </li>
+                      <li class="step__item">
+                        <p>Шаг 2</p>
+                      </li>
+                      <li class="step__item">
+                        <p>Шаг 3</p>
+                      </li>
+                      <li class="step__item">
+                        <p>Шаг 4</p>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="block__number">
+                    <p class="block__number-step">1</p>
+                    <h3>Чем занимается ваша организация?</h3>
+                  </div>
+                  <div class="block__answer">
+                    <form action="">
+                      <textarea name="" id="" placeholder="Введите ответ" class="block__answer-form"></textarea>
+                    </form>
+                  </div>
                   <div class="block__button-button">
                     <button class="block__button"> Далее </button>
                   </div>
                 </div>
               </div>
             </div>
-            <!-- <div class="slider__content-block">
+
+            <!-- ВТОРОЙ БЛОК  -->
+<!--             
+            <div class="slider__content-block">
               <div class="slider__block-img">
                 <img src="/src/img/pic/MaskGroup1.jpg" alt="">
               </div>
+
               <div class="slider__block-question">
-                <div class="block__step">
+                <div class="slider__block-content">
+                    <div class="block__step">
                   <ul class="step__list">
                     <li class="step__item">
                       <p>Шаг 1</p>
@@ -248,100 +267,123 @@
                   <button class="block__button"> Далее </button>
                   <button class="block__button-back">Назад</button>
                 </div>
+                </div>
+              
               </div>
-            </div>
-            <div class="slider__content-block">
+            </div> -->
+
+            <!-- ТРЕТИЙ БЛОК -->
+
+
+            <!-- <div class="slider__content-block">
+
               <div class="slider__block-img">
                 <img src="/src/img/pic/MaskGroup2.jpg" alt="">
               </div>
               <div class="slider__block-question">
-                <div class="block__step">
-                  <ul class="step__list">
-                    <li class="step__item">
-                      <p>Шаг 1</p>
-                    </li>
-                    <li class="step__item">
-                      <p>Шаг 2</p>
-                    </li>
-                    <li class="step__item">
-                      <p>Шаг 3</p>
-                    </li>
-                    <li class="step__item">
-                      <p>Шаг 4</p>
-                    </li>
-                  </ul>
-                </div>
-                <div class="block__number">
-                  <p class="block__number-step">3</p>
-                  <h3>Укажите количество сотрудников, которым нужно провести профосмотр.</h3>
-                </div>
-                <div class="block__answer">
-                  <form action="">
-                    <input name="" id="" placeholder="Введите число" class="block__answer-form"></input>
-                  </form>
+                <div class="slider__block-content">
+                  <div class="block__step">
+                    <ul class="step__list">
+                      <li class="step__item">
+                        <p>Шаг 1</p>
+                      </li>
+                      <li class="step__item">
+                        <p>Шаг 2</p>
+                      </li>
+                      <li class="step__item">
+                        <p>Шаг 3</p>
+                      </li>
+                      <li class="step__item">
+                        <p>Шаг 4</p>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="block__number">
+                    <p class="block__number-step">3</p>
+                    <h3>Укажите количество сотрудников, которым нужно провести профосмотр.</h3>
+                  </div>
+                  <div class="block__answer">
+                    <form action="">
+                      <textarea name="" id="" placeholder="Введите число" class="block__answer-form"></textarea>
+                    </form>
+
+                  </div>
                   <div class="block__button-button">
-                    <button  class="block__button"> Далее </button>
-                    <button  class="block__button-back">Назад</button>
+                    <button class="block__button"> Далее </button>
+                    <button class="block__button-back">Назад</button>
                   </div>
                 </div>
+
               </div>
-            </div>
-            <div class="slider__content-block">
+            </div> -->
+
+
+            <!-- ЧЕТВЕРТЫЙ БЛОК -->
+
+
+            <!-- <div class="slider__content-block">
               <div class="slider__block-img">
                 <img src="/src/img/pic/MaskGroup3.jpg" alt="">
               </div>
               <div class="slider__block-question">
-                <div class="block__step">
-                  <ul class="step__list">
-                    <li class="step__item">
-                      <p>Шаг 1</p>
-                    </li>
-                    <li class="step__item">
-                      <p>Шаг 2</p>
-                    </li>
-                    <li class="step__item">
-                      <p>Шаг 3</p>
-                    </li>
-                    <li class="step__item">
-                      <p>Шаг 4</p>
-                    </li>
-                  </ul>
-                </div>
-                <div class="block__number">
-                  <p class="block__number-step">4</p>
-                  <h3>Вы планируете пройти профосмотр в одном из наших медцентров или требуется выездная бригада?</h3>
-                </div>
-                <div class="block__answer">
-                  <form action="" class="block__answer-choice">
-                    <ul class="choice__link">
-                      <li class="choice__item">
-                        <input type="radio" name="" id="" class="choice__list">
-                        <p>В медцентре </p>
+                <div class="slider__block-content">
+                  <div class="block__step">
+                    <ul class="step__list">
+                      <li class="step__item">
+                        <p>Шаг 1</p>
                       </li>
-                      <li class="choice__item">
-                        <input type="radio" name="" id="" class="choice__list">
-                        <p>Требуется выездная бригада </p>
+                      <li class="step__item">
+                        <p>Шаг 2</p>
+                      </li>
+                      <li class="step__item">
+                        <p>Шаг 3</p>
+                      </li>
+                      <li class="step__item">
+                        <p>Шаг 4</p>
                       </li>
                     </ul>
-                  </form>
+                  </div>
+                  <div class="block__number">
+                    <p class="block__number-step">4</p>
+                    <h3>Вы планируете пройти профосмотр в одном из наших медцентров или требуется выездная бригада?</h3>
+                  </div>
+                  <div class="block__choice">
+                    <form action="" class="block__answer-choice">
+                      <ul class="choice__link">
+                        <li class="choice__item">
+                          <input type="radio" name="" id="" class="choice__list">
+                          <p>В медцентре </p>
+                        </li>
+                        <li class="choice__item">
+                          <input type="radio" name="" id="" class="choice__list">
+                          <p>Требуется выездная бригада </p>
+                        </li>
+                      </ul>
+                    </form>
+                  </div>
+                  <div class="block__button-button">
+                    <button class="block__button"> Далее </button>
+                    <button class="block__button-back">Назад</button>
+                  </div>
                 </div>
-                <div class="block__button-button">
-                  <button  class="block__button"> Далее </button>
-                  <button  class="block__button-back">Назад</button>
-                </div>
+
               </div>
             </div> -->
+
+
+
           </div>
         </div>
       </section>
       <section class="section feedback">
         <div class="feedback__content">
-          <h2>Не знаете, какой профосмотр подойдет вашей организации?</h2>
-          <div class="feedback__content-subtitle">
-            <p>Ответьте на 4 вопроса, и мы подберем подходящий профосмотр, расчитаем стоимость его проведения и
-              вышлем
-              коммерческое предложение </p>
-          </div>
+          <h2 class="feedback__title">Не знаете, какой профосмотр подойдет вашей организации?</h2>
+
+          <p class="feedback__subtitle">Ответьте на 4 вопроса, и мы подберем подходящий профосмотр, расчитаем
+            <br>стоимость его проведения и
+            вышлем
+            коммерческое предложение
+          </p>
           <div class="feedback__content-block">
             <div class="feedback__block-title">
               <h3>Введите номер телефона, и мы вышлем вам расчет стоимости профосмотра и коммерческое предложение</h3>
@@ -349,11 +391,12 @@
             <form action="">
               <input type="text" name="" id="" placeholder="Ваш номер телефона*" class="content__offer-form">
             </form>
-            <a href="#" class="btn hero">Получить коммерческое предложение</a>
+            <a href="#" class="btn feedback__button">Получить коммерческое предложение</a>
             <div class="feedback__offer-text">
-              Передавая информацию сайту, вы принимаете усовия <a href="#" class="content__offer-link"> Политики
-                защиты
-                персональной информации </a>
+              <p>Передавая информацию сайту, вы принимаете усовия <a href="#" class="feedback__offer-link">
+                  Политики
+                  защиты
+                  персональной информации </a> </p>
             </div>
           </div>
 

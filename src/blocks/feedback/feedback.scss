@@ -7,16 +7,22 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  
+
 }
 
-.feedback__content-subtitle {
+.feedback__title {
+  font-size: 28px;
+  line-height: 35px;
+  display: flex;
   text-align: center;
-  line-height: 33px;
+}
+
+.feedback__subtitle {
+  display: flex;
+  text-align: center;
   font-size: 18px;
-  margin: 33px 0 84px 0;
-  width: 765px;
-  height: 43px;
+  line-height: 33px;
+  margin: 50px 0 65px 0;
 }
 
 .feedback__content-block {
@@ -40,10 +46,19 @@
 }
 
 .feedback__offer-text {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 383px;
+ // display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//  // width: 383px;
   font-size: 12px;
   line-height: 15px;
+}
+.feedback__offer-link{
+  color: #009FE3;
+  display: flex;
+  justify-content: center;
+}
+.feedback__button{
+  border: none;
+  padding: 20px 26px 20px 26px ;
 }
