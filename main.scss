@@ -1,7 +1,9 @@
 
 @import"./node_modules/normalize.css/normalize.css";
-
+//layout
 @import "./_misc/layout.scss";
+@import "./_misc/media.scss";
+
 
 //blocks
 @import "./src/blocks/hero/hero.scss";

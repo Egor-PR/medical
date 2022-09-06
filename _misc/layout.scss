@@ -14,8 +14,6 @@ a {
   color: #1A191C;
 }
 
-.btn {}
-
 .body {
   position: relative;
   font-size: 14px;
@@ -28,11 +26,11 @@ a {
 .container {
   position: relative;
   margin: 0 auto;
-  max-width: 959px;
-  width: 1170px;
+  // max-width: 959px;
+  width: 1175px;
   display: flex;
   flex-direction: column;
-  //height: 95%;
+  height: 95%;
   //justify-content: space-between;
 
 }
@@ -51,7 +49,7 @@ a {
 }
 
 .section {
-  // height: 100vh;
+  height: 100vh;
   min-height: 950px;
 
 }

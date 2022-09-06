@@ -1,5 +1,6 @@
 .header {
   background-color: #FFFFFF;
+  background-size:cover;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -71,4 +72,11 @@
 .header__contact-city {
   color: #009FE3;
   margin-right: 3px;
+  margin-left: 5px;
+}
+.header__button-menu{
+  background: none;
+  border: none;
+  display: none;
+  
 }
