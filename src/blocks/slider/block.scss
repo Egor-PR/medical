@@ -45,6 +45,7 @@
   border: 1px solid #D5D5D5;
   border-radius: 6px;
   text-indent: -18em;
+  outline:none;
 }
 
 .block__form {
@@ -103,6 +104,11 @@
   line-height: 19px;
   color: #FFFFFF;
 
+  &:hover{
+    background: gainsboro;
+    transition: 0.5s;
+    color: #009fe0 ;
+  }
   &:after {
     margin: 0 0 0 5px;
     content: url("/src/img/icon/ArrowButton.svg");
