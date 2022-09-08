@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Medical</title>
+  <link rel="stylesheet" href="./fonts.css">
+  <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="maincontent">
+      <section class="section hero">
+        <header class="header">
+          <div class="header__container">
+            <div class="header__buttons">
+              <div class="header__block">
+                <div class="header__logo">
+                  <img src="/src/img/pic/logo.png" alt="">
+                </div>
+                <div class="header__logo-text">
+                  <p>Медицинские профосмотры <br>в Москве и области</p>
+                </div>
+              </div>
+              <nav class="menu">
+                <ul class="menu__list">
+                  <li class="menu__item ">
+                    <a href="#" class="menu__link menu__mail"> prof@diamed.group</a>
+                    <p class="menu__city">Ваш город <a href="#" class="header__contact-city"> Королёв <img
+                          src="/src/img/icon/Vector2.svg" alt=""></a></p>
+                  </li>
+                  <li class="menu__item">
+                    <a href="#" class="menu__link">Подбор профосмотра</a>
+                  </li>
+                  <li class="menu__item link__add">
+                    <a href="#" class="menu__link ">Услуги</a>
+                    <img src="/src/img/icon/Vector2.svg" alt="" class="link__add-icon">
+                    <ul class="menu__sub-list">
+                      <li class="menu__sub-link">
+                        <a href="#" class="menu__sub-item"> Предварительные и периодические медицинские осмотры
+                          (профосмотры)</a>
+                      </li>
+                      <li class="menu__sub-link">
+                        <a href="#" class="menu__sub-item"> Личные медицинские книжки (ЛМК)</a>
+                      </li>
+                      <li class="menu__sub-link">
+                        <a href="#" class="menu__sub-item"> Психиатрическое освидетельствование</a>
+                      </li>
+                      <li class="menu__sub-link">
+                        <a href="#" class="menu__sub-item"> Предрейсовые/послерейсовые медицинские осмотры</a>
+                      </li>
+                      <li class="menu__sub-link">
+                        <a href="#" class="menu__sub-item"> Предсмертные/послесмертные медицинские осмотры</a>
+                      </li>
+                      <li class="menu__sub-link">
+                        <a href="#" class="menu__sub-item"> Организация здравпункта на предприятии</a>
+                      </li>
+                      <li class="menu__sub-link">
+                        <a href="#" class="menu__sub-item"> Диспансеризация</a>
+                      </li>
+                      <li class="menu__sub-link">
+                        <a href="#" class="menu__sub-item"> Вакцинация</a>
+                      </li>
+                      <li class="menu__sub-link">
+                        <a href="#" class="menu__sub-item"> Помощь в организации аттестации рабочих мест (СОУТ)</a>
+                      </li>
+                      <li class="menu__sub-link">
+                        <a href="#" class="menu__sub-item"> Тендерный отдел</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="menu__item">
+                    <a href="#" class="menu__link">О медицине</a>
+                  </li>
+                  <li class="menu__item">
+                    <a href="#" class="menu__link">Галерея</a>
+                  </li>
+                  <li class="menu__item">
+                    <a href="#" class="menu__link">Благодарности</a>
+                  </li>
+                  <li class="menu__item">
+                    <a href="#" class="menu__link">Лицензии</a>
+                  </li>
+                  <li class="menu__item">
+                    <a href="#" class="menu__link">Контакты</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div class="header__contact">
+              <p class="header__contact-mail">prof@diamed.group</p>
+              <p class="header__contact-phone">+7 (495) 281 53 53</p>
+              <div class="header__button-menu">
+                <span></span>
+              </div>
+              <div class="header__contact-text">
+                <p>Ваш город </p>
+                <a href="#" class="header__contact-city"> Королёв</a>
+                <img src="/src/img/icon/Vector2.svg" alt="">
+              </div>
+            </div>
+          </div>
+        </header>
+        <div class="container">
+          <div class="hero__content">
+            <div class="hero__content-pic">
+              <img src="/src/img/bg/girl 2.png" alt="" class="hero__pic">
+            </div>
+            <div class="hero__content-block">
+              <h2 class="hero__block-title">Проведение профосмотров <br>от 600 руб./чел.</h2>
+              <p class="hero__block-subtitle">с выездом в вашу организацию</p>
+              <div class="hero__item">
+                <div class="hero-item__icon">
+                  <img src="/src/img/icon/Group.svg" alt="">
+                </div>
+                <div class="hero-item__text">
+                  <p> Сделаем за вас все: от подбора типа профосмотра до выдачи всех документов </p>
+                </div>
+              </div>
+              <div class="hero__item">
+                <div class="hero-item__icon">
+                  <img src="/src/img/icon/Frame.svg" alt="">
+                </div>
+                <div class="hero-item__text">
+                  Работаем строго по 302н Приказу Минздравсоцразвития
+                </div>
+              </div>
+              <div class="hero__item">
+                <div class="hero-item__icon">
+                  <img src="/src/img/icon/Group2.svg" alt="">
+                </div>
+                <div class="hero-item__text">
+                  Результаты профосмотра всего за 7 дней
+                </div>
+              </div>
+              <a href="#" class="hero__content-link">
+                <p>Подобрать профосмотр </p>
+              </a>
+            </div>
+            <div class="hero__content-offer">
+              <div class="hero__block-offer">
+                <div class="hero__block-text">
+                  <p> Оставьте заявку, и мы предоставим полный план профосмотра с расчетом игровой стоимости, подходящий
+                    именно вашей организации </p>
+                </div>
+                <form action="">
+                  <input type="text" name="" id="" placeholder="Ваш номер телефона*" class="content__offer-form">
+                </form>
+                <button class="btn hero__button">Получить коммерческое предложение</button>
+                <div class="hero__offer-text">
+                  <p> Передавая информацию сайту, вы принимаете усовия <a href="#" class="content__offer-link"> Политики
+                      защиты
+                      персональной информации </a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section slider">
+        <div class="container">
+          <div class="slider__content">
+            <h2 class="slider__title">Не знаете, какой профосмотр подойдет вашей организации?</h2>
+            <p class="slider__subtitle">Ответьте на 4 вопроса, и мы подберем подходящий профосмотр, расчитаем
+              <br>стоимость его проведения и
+              вышлем
+              коммерческое предложение
+            </p>
+            <div class="slider__win">
+              <div class="slider__line">
+                <div class="slider__content-block">
+                  <div class="slider__block-img">
+                    <img src="/src/img/pic/MaskGroup.jpg" alt="">
+                  </div>
+                  <div class="slider__block-question">
+                    <div class="slider__block-content">
+                      <div class="block__step">
+                        <ul class="step__list">
+                          <li class="step__item">
+                            <p>Шаг 1</p>
+                          </li>
+                          <li class="step__item">
+                            <p>Шаг 2</p>
+                          </li>
+                          <li class="step__item">
+                            <p>Шаг 3</p>
+                          </li>
+                          <li class="step__item">
+                            <p>Шаг 4</p>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="block__number">
+                        <p class="block__number-step">1</p>
+                        <h3>Чем занимается ваша организация?</h3>
+                      </div>
+                      <div class="block__answer">
+                        <form action="">
+                          <textarea name="" id="" placeholder="Введите ответ" class="block__answer-form"></textarea>
+                        </form>
+                      </div>
+                      <div class="block__button-button">
+                        <button class="block__button-next"> Далее </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="slider__content-block">
+                  <div class="slider__block-img">
+                    <img src="/src/img/pic/MaskGroup1.jpg" alt="">
+                  </div>
+                  <div class="slider__block-question">
+                    <div class="slider__block-content">
+                      <div class="block__step">
+                        <ul class="step__list">
+                          <li class="step__item">
+                            <p>Шаг 1</p>
+                          </li>
+                          <li class="step__item">
+                            <p>Шаг 2</p>
+                          </li>
+                          <li class="step__item">
+                            <p>Шаг 3</p>
+                          </li>
+                          <li class="step__item">
+                            <p>Шаг 4</p>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="block__number">
+                        <p class="block__number-step">2</p>
+                        <h3>Укажите вид необходимой услуги <br> (Можно выбрать несколько вариантов)</h3>
+                      </div>
+                      <div class="block__form">
+                        <div class="block__form-left">
+                          <ul class="form__list">
+                            <li class="form__item">
+                              <input type="checkbox" class="form__link">
+                              <p>Предварительный/периодический медицинский осмотр </p>
+                            </li>
+                            <li class="form__item">
+                              <input type="checkbox" class="form__link">
+                              <p>Выездной медицинский осмотр (профосмотр)</p>
+                            </li>
+                            <li class="form__item">
+                              <input type="checkbox" class="form__link">
+                              <p>Личные медицинские книжки (ЛМК)</p>
+                            </li>
+                            <li class="form__item">
+                              <input type="checkbox" class="form__link">
+                              <p>Психиатрическое освидетельствование</p>
+                            </li>
+                            <li class="form__item">
+                              <input type="checkbox" class="form__link">
+                              <p>Предрейсовые/послерейсовые профосмотры </p>
+                            </li>
+                            <li class="form__item">
+                              <input type="checkbox" class="form__link">
+                              <p> Предсменные/послесменные профосмотры </p>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="block__form-right">
+                          <ul class="form__list">
+                            <li class="form__item">
+                              <input type="checkbox" class="form__link">
+                              <p>Организация здравпункта на предприятии </p>
+                            </li>
+                            <li class="form__item">
+                              <input type="checkbox" class="form__link">
+                              <p>Диспансеризация</p>
+                            </li>
+                            <li class="form__item">
+                              <input type="checkbox" class="form__link">
+                              <p>Вакцинация</p>
+                            </li>
+                            <li class="form__item">
+                              <input type="checkbox" class="form__link">
+                              <p>Помощь в организации аттестации рабочих мест (СОУТ)</p>
+                            </li>
+                            <li class="form__item">
+                              <input type="checkbox" class="form__link">
+                              <p> Тендерный отдел </p>
+                            </li>
+                            <li class="form__item">
+                              <input type="checkbox" class="form__link">
+                              <p> Я не знаю, нужна помощь в подборе </p>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="block__button-button">
+                        <button class="block__button-next"> Далее </button>
+                        <button class="block__button-prev">Назад</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="slider__content-block">
+                  <div class="slider__block-img">
+                    <img src="/src/img/pic/MaskGroup2.jpg" alt="">
+                  </div>
+                  <div class="slider__block-question">
+                    <div class="slider__block-content">
+                      <div class="block__step">
+                        <ul class="step__list">
+                          <li class="step__item">
+                            <p>Шаг 1</p>
+                          </li>
+                          <li class="step__item">
+                            <p>Шаг 2</p>
+                          </li>
+                          <li class="step__item">
+                            <p>Шаг 3</p>
+                          </li>
+                          <li class="step__item">
+                            <p>Шаг 4</p>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="block__number">
+                        <p class="block__number-step">3</p>
+                        <h3>Укажите количество сотрудников, которым нужно провести профосмотр.</h3>
+                      </div>
+                      <div class="block__answer">
+                        <form action="">
+                          <textarea name="" id="" placeholder="Введите число" class="block__answer-form"></textarea>
+                        </form>
+                      </div>
+                      <div class="block__button-button">
+                        <button class="block__button-next"> Далее </button>
+                        <button class="block__button-prev">Назад</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="slider__content-block">
+                  <div class="slider__block-img">
+                    <img src="/src/img/pic/MaskGroup3.jpg" alt="">
+                  </div>
+                  <div class="slider__block-question">
+                    <div class="slider__block-content">
+                      <div class="block__step">
+                        <ul class="step__list">
+                          <li class="step__item">
+                            <p>Шаг 1</p>
+                          </li>
+                          <li class="step__item">
+                            <p>Шаг 2</p>
+                          </li>
+                          <li class="step__item">
+                            <p>Шаг 3</p>
+                          </li>
+                          <li class="step__item">
+                            <p>Шаг 4</p>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="block__number">
+                        <p class="block__number-step">4</p>
+                        <h3>Вы планируете пройти профосмотр в одном из наших медцентров или требуется выездная бригада?
+                        </h3>
+                      </div>
+                      <div class="block__choice">
+                        <form action="" class="block__answer-choice">
+                          <ul class="choice__link">
+                            <li class="choice__item">
+                              <input type="radio" name="" id="" class="choice__list">
+                              <p>В медцентре </p>
+                            </li>
+                            <li class="choice__item">
+                              <input type="radio" name="" id="" class="choice__list">
+                              <p>Требуется выездная бригада </p>
+                            </li>
+                          </ul>
+                        </form>
+                      </div>
+                      <div class="block__button-button">
+                        <button class="block__button-next"> Далее </button>
+                        <button class="block__button-prev">Назад</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section feedback">
+        <div class="feedback__content">
+          <h2 class="feedback__title">Не знаете, какой профосмотр подойдет вашей организации?</h2>
+          <p class="feedback__subtitle">Ответьте на 4 вопроса, и мы подберем подходящий профосмотр, расчитаем
+            <br>стоимость его проведения и
+            вышлем
+            коммерческое предложение
+          </p>
+          <div class="feedback__content-unit">
+            <div class="feedback__content-block">
+              <h3 class="feedback__block-title">Введите номер телефона, и мы вышлем вам расчет стоимости профосмотра
+                <br> и коммерческое предложение
+              </h3>
+              <form action="" class="feedback__block-form">
+                <input type="text" name="" id="" placeholder="Ваш номер телефона*" class="content__offer-form">
+              </form>
+              <button class="btn feedback__button">Получить коммерческое предложение</button>
+              <div class="feedback__offer-text">
+                <p>Передавая информацию сайту, вы принимаете усовия <a href="#" class="feedback__offer-link">
+                    Политики
+                    защиты
+                    персональной информации </a> </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.6.1.slim.min.js"></script>
+  <script src="/src/js/main.js"></script>
+  <script src="/src/js/slider.js"></script>
+</body>
+
+</html>
