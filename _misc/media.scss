@@ -1,3 +1,4 @@
+
 @media screen and (max-width: 1900px) {
   .container {
     max-width: 1197px;
@@ -5,6 +6,7 @@
 
   .header .sub-menu {
     display: block;
+    transition: 1s;
   }
 
 }
@@ -17,8 +19,8 @@
 
   .header__buttons .sub-menu {
     display: block;
-  }
 
+  }
 }
 
 @media screen and (max-width: 1199px) {
@@ -30,6 +32,7 @@
   .header__buttons .show-menu {
     display: block;
   }
+
 
   .slider__content .slider__content-block {
     width: 100%;
@@ -100,13 +103,6 @@
   .menu {
     display: none;
   }
-
-
-  // .feedback__content .feedback__content-block {
-  //   flex-wrap: wrap;
-  //   width: 100%;
-  //   height: 100%;
-  // }
 }
 
 
@@ -139,14 +135,16 @@
       transform: rotate(180deg);
 
     }
-  
+
   }
-  .menu .menu__city{
+
+  .menu .menu__city {
     position: relative;
     display: block;
   }
-  .menu .menu__city{
-        &:after {
+
+  .menu .menu__city {
+    &:after {
       position: absolute;
       content: '';
       width: 150px;
@@ -157,6 +155,7 @@
       transform: rotate(180deg);
     }
   }
+
   .menu__list>li {
     padding: 0 0 10px 0;
   }
@@ -167,6 +166,7 @@
     font-size: 14px;
     line-height: 19px;
   }
+
 
   .header__block {
     width: 131px;
@@ -247,20 +247,68 @@
     font-weight: bold;
   }
 
+  .header__button-menu span {
+    content: '';
+    background-color: #009FE3;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 10px;
+    top: 6px;
+    transition: 0.5s;
+  }
+
   .header__contact .header__button-menu {
 
     display: block;
+    position: relative;
+    width: 25px;
+    height: 15px;
     padding: 5px 10px 0 10px;
 
+    &:after {
+      content: '';
+      background-color: #009FE3;
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      bottom: 1px;
+      transition: 0.5s;
+    }
+
+    &:before {
+      content: '';
+      background-color: #009FE3;
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      top: 1px;
+      transition: 0.5s;
+    }
   }
 
+  .header__button-menu.show-menu:before {
+    transform: rotate(45deg) scale(0.8);
+    top: 6px;
+    background-color: #000000;
+    transition: 0.5s;
+  }
+
+  .header__button-menu.show-menu:after {
+    transform: rotate(-45deg) scale(0.8);
+    bottom: 7px;
+    background-color: #000000;
+    transition: 0.5s;
+  }
+
+  .header__button-menu.show-menu span {
+    transform: scale(0);
+  }
 }
 
 @media screen and (max-width: 575px) {
   .container {
     width: 95%;
-
     padding: 0 15px;
   }
-
 }

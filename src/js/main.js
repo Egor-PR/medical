@@ -1,7 +1,7 @@
 //меню бургера и вывод доп.окна
 $(function () {
   $('.header__button-menu').click(function () {
-    $('.menu').toggleClass('show-menu')
+    $('.menu,.header__button-menu').toggleClass('show-menu')
   })
 });
 $(function () {

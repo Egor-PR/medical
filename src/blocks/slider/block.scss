@@ -94,11 +94,12 @@
 
 }
 
-.block__button {
+.block__button-next {
   //margin: 40px 0 0 0;
   padding: 1.5% 4%;
   border: none;
   border-radius: 6px;
+  font-family: "Roboto";
   background: #009FE3;
   font-size: 15px;
   line-height: 19px;
@@ -115,7 +116,7 @@
   }
 }
 
-.block__button-back {
+.block__button-prev {
   font-weight: bold;
   border: none;
   background: none;

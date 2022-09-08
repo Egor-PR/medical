@@ -2,6 +2,7 @@
   margin: 0 0 20px 0;
 }
 
+
 .menu__list {
   display: flex;
   list-style: none;
@@ -15,12 +16,15 @@
     margin-right: 0;
   }
 }
- .menu__mail{
+
+.menu__mail {
   display: none;
- }
- .menu__city{
+}
+
+.menu__city {
   display: none;
- }
+}
+
 .menu__link {
   color: #1A191C;
   font-size: 14px;
@@ -32,7 +36,11 @@
 
 .menu__list>li {
   position: relative;
-  margin: 0 0 0 20px;
+  margin: 0 24px 0 0;
+
+  &:nth-child(1) {
+    margin: 0;
+  }
 }
 
 .menu__sub-list li {
@@ -49,8 +57,9 @@
   min-width: 300px;
   z-index: 10;
 }
-.menu__sub-item{
-  &:hover{
+
+.menu__sub-item {
+  &:hover {
     color: #009FE3;
   }
 }
