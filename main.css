@@ -990,7 +990,7 @@ a {
 }
 .block__button-next:after {
   margin: 0 0 0 5px;
-  content: url("/src/img/icon/ArrowButton.svg");
+  content: url("./src/img/icon/ArrowButton.svg");
 }
 
 .block__button-prev {
@@ -1003,7 +1003,7 @@ a {
 }
 .block__button-prev:before {
   margin: 0 5px 0 0;
-  content: url("/src/img/icon/ArrowBack.svg");
+  content: url("./src/img/icon/ArrowBack.svg");
 }
 
 .step__list {
