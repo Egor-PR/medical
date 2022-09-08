@@ -1,10 +1,6 @@
 .hero {
   position: relative;
   background-color: #E1E9EF;
-  // background-image: url("/src/img/bg/girl\ 2.png");
-  // background-repeat: no-repeat;
-  // background-position: center bottom;
-  // background-size: 35%;
 }
 
 .hero__content {
@@ -12,20 +8,16 @@
   justify-content: space-between;
   align-items: center;
   margin: auto 0;
-
 }
-
 .hero__block-title {
   font-size: 28px;
   line-height: 35px;
 }
-
 .hero__block-subtitle {
   font-size: 23px;
   line-height: 35px;
   font-family: "gothampro";
 }
-
 .hero__content-pic {
   display: flex;
   z-index: 1;
@@ -35,31 +27,16 @@
   height: 786px;
   transform: translate(-60%);
 }
-
 .hero__content-block {
   display: flex;
   flex-direction: column;
 }
-
 .hero__content-offer {
   width: 370px;
   height: 464px;
   display: flex;
-  // flex-direction: column;
-  // justify-content: space-evenly;
-  // align-items: center;
   background-color: #FFFFFF;
   border-radius: 6px 6px 0 0;
-
-  // &:after{
-  //   position: absolute;
-  //   content: "";
-  //   left: 0;
-  //   bottom: 0;
-  //   width: 370px;
-  //   height: 96px;
-  //   background:linear-gradient(105.08deg, #E1E9EF 22.02%, #C8D4DF 93.22%); ;
-  // }
 }
 
 .hero__block-offer {
@@ -69,15 +46,11 @@
   justify-content: space-evenly;
   align-items: center;
 }
-
 .hero__button {
   border: none;
   padding: 20px 26px 20px 26px;
-
 }
-
 .hero__block-text {
-  // width: 320px;
   font-size: 15px;
   line-height: 20px;
 }
@@ -90,12 +63,10 @@
   line-height: 15px;
   text-align: center;
 }
-
 .hero__item {
   display: flex;
   flex-direction: row;
   width: auto;
-  // height: 60px;
   font-size: 14px;
   line-height: 17px;
   margin-top: 20px;
@@ -104,29 +75,18 @@
     margin-top: 0;
   }
 }
-
 .hero-item__icon {
   margin-right: 20px;
 }
-
 .hero-item__text {
   font-size: 14px;
   line-height: 17px;
   width: 225px;
   height: 60px;
 }
-
-.hero__content-pic {
-  // display: flex;
-  // width: 683px;
-  // height: 786px;
-  // z-index: 1;
-}
-
 .hero__content-link {
   color: #009FE3;
 &:hover{
   color: black;
 }
-
 }

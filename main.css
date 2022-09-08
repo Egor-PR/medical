@@ -64,6 +64,10 @@ a {
     -webkit-transition: 1s;
     transition: 1s;
   }
+
+  .slider__content .slider__win {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 1200px) {
   .container {
@@ -807,7 +811,7 @@ a {
   -webkit-box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.08);
           box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.08);
   border-radius: 4px;
-  margin: 0 30px 0 0;
+  min-width: 100%;
 }
 
 .slider__block-question {
@@ -883,10 +887,11 @@ a {
 
 .block__answer-form {
   resize: none;
-  padding: 70px 300px;
   border: 1px solid #D5D5D5;
   border-radius: 6px;
-  text-indent: -18em;
+  width: 810px;
+  height: 184px;
+  padding: 10px 10px;
   outline: none;
 }
 

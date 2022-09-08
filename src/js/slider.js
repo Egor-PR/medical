@@ -1,19 +1,27 @@
+const container = document.querySelector(".slider__win");
+const slides = document.querySelectorAll(".slider__content-block");
+const buttonsNext = document.querySelectorAll(".block__button-next");
+const buttonsPrev = document.querySelectorAll(".block__button-prev");
+const sliderLine = document.querySelector(".slider__line");
+sliderLine.style.left = 0;
 
-let offset = 0; // начальная позиция
-const sliderLine = document.querySelector('.slider__line');
-document.querySelector('.block__button-next').addEventListener('click', function () {
-  offset = offset + 1170;
-  if (offset > 4680) {
-    offset = 0;
-  }
-  sliderLine.style.left = -offset + 'px';
-});
+const containerWidth = container.offsetWidth;
 
-document.querySelector('.block__button-prev').addEventListener('click', function () {
-  offset = offset - 1170;
-  if (offset < 0) {
-    offset = 4680;
-  }
-
-  sliderLine.style.left = -offset + 'px';
-});
+buttonsNext.forEach((button, ndx) => {
+  button.addEventListener("click", (e) => {
+    if (ndx === buttonsNext.length - 1) {
+      return
+    }
+    const currentLeftPosition = parseFloat(sliderLine.style.left);
+    sliderLine.style.left = `${-(containerWidth - currentLeftPosition)}px`;
+  })
+})
+buttonsPrev.forEach((button, ndx) => {
+  button.addEventListener("click", (e) => {
+    if (ndx === 0) {
+      return
+    }
+    const currentLeftPosition = parseFloat(sliderLine.style.left);
+    sliderLine.style.left = `${(currentLeftPosition + containerWidth)}px`;
+  })
+})

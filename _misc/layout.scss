@@ -3,9 +3,6 @@
   padding: 0;
   margin: 0;
   font-family: 'gothampro';
-
-
-
 }
 
 li {
@@ -28,7 +25,6 @@ a {
   line-height: 1.42;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
 }
 
 .container {
@@ -38,7 +34,6 @@ a {
   height: 950px;
   display: flex;
   flex-direction: column;
-
 }
 
 .wrapper {
@@ -53,10 +48,3 @@ a {
 .maincontent {
   height: 100%;
 }
-
-//height: 100vh;
-// min-height: 950px;
-
-// } padding на херо контейнер
-// bottom 0 у бабы и по центру left 50% transfomn tsnslate -50% поменять шрифты название и поменять жирность и стиль и лайн хейд поставить аутлайн поставить на сам импут паддинг у текста  поменять класс у кнопки ,tn__hero сделать паддинги у кнопки и убрать высоту и ширину,
-// для планшетов шаг 1 подцветку 1 убрать визы  у загловка сделать центр паддинги сделать у заголовка и поставить вверху и внизу паддинги , сделать теккстерия и запретить ей это делать, сделать медиа запросы уже в файлах
